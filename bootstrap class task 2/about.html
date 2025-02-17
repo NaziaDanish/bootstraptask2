@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"
+        style="background-color: white; padding: 20px; border-radius: 10px; margin-top: 50px; border: 1px solid black;">
+        <div class="container mt-5">
+            <h2 class="mb-4"><b>Quiz Questions</b></h2>
+            <form action="result.html" method="POST">
+
+                <p><b>1. What is the capital of France?</b></p>
+                <input type="radio" name="q1" value="Paris" required> Paris<br>
+                <input type="radio" name="q1" value="London"> London<br>
+                <input type="radio" name="q1" value="Berlin"> Berlin<br><br>
+
+                <p><b>2. What is 2 + 2?</b></p>
+                <input type="radio" name="q2" value="3" required> 3<br>
+                <input type="radio" name="q2" value="4"> 4<br>
+                <input type="radio" name="q2" value="5"> 5<br><br>
+
+                <p><b>3. Which HTML tag is used to create a hyperlink?</b></p>
+                <input type="radio" name="q3" value="link" required> a- &lt;link&gt;<br>
+                <input type="radio" name="q3" value="a"> b- &lt;a&gt;<br>
+                <input type="radio" name="q3" value="href"> c- &lt;href&gt;<br><br>
+
+                <p><b></b>4. What does HTML stand for?</p>
+                <input type="radio" name="q4" value="HyperText Markup Language" required> a- HyperText Markup
+                Language<br>
+                <input type="radio" name="q4" value="HighText Machine Learning"> b- HighText Machine Learning<br>
+                <input type="radio" name="q4" value="HyperTransfer Markup Language"> c- HyperTransfer Markup
+                Language<br><br>
+
+                <p><b>5. Which tag is used to create an unordered list?</b></p>
+                <input type="radio" name="q5" value="ol" required> a- &lt;ol&gt;<br>
+                <input type="radio" name="q5" value="ul"> b- &lt;ul&gt;<br>
+                <input type="radio" name="q5" value="li"> c- &lt;li&gt;<br><br>
+
+                <p><b>6. Which of the following is used to create a table row in HTML?</b></p>
+                <input type="radio" name="q6" value="tr" required> a- &lt;tr&gt;<br>
+                <input type="radio" name="q6" value="td"> b- &lt;td&gt;<br>
+                <input type="radio" name="q6" value="table"> c- &lt;table&gt;<br><br>
+
+                <p><b>7. Which property is used to change the text color in CSS?</b></p>
+                <input type="radio" name="q7" value="font-color" required> a- font-color<br>
+                <input type="radio" name="q7" value="color"> b- color<br>
+                <input type="radio" name="q7" value="text-color"> c- text-color<br><br>
+
+                <p><b>8. What is the default position of an HTML element?</b></p>
+                <input type="radio" name="q8" value="static" required> a- Static<br>
+                <input type="radio" name="q8" value="absolute"> b- Absolute<br>
+                <input type="radio" name="q8" value="relative"> c- Relative<br><br>
+
+                <p><b>9. Which CSS property is used to control the space inside an element, between the content and the
+                    border?</b></p>
+                <input type="radio" name="q9" value="margin" required> a- Margin<br>
+                <input type="radio" name="q9" value="padding"> b- Padding<br>
+                <input type="radio" name="q9" value="spacing"> c- Spacing<br><br>
+
+                <p><b>10. Which of the following is NOT a valid CSS unit?</b></p>
+                <input type="radio" name="q10" value="px" required> a- px<br>
+                <input type="radio" name="q10" value="em"> b- em<br>
+                <input type="radio" name="q10" value="pt"> c- pt<br><br>
+
+                <button type="submit" class="btn btn-success mt-3">Submit Quiz</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
